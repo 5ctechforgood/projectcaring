@@ -101,8 +101,6 @@ if ( get_option( 'show_on_front' ) == 'page' ) {
 
 					</div><!-- .content-left-wrap -->
 
-					<?php zerif_sidebar_trigger(); ?>
-
 				</div><!-- .container -->
 			<?php
 	}

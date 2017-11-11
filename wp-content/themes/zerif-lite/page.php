@@ -60,7 +60,6 @@ get_header(); ?>
 		zerif_bottom_page_content_trigger();
 		echo '</div>';
 		zerif_after_page_content_trigger();
-		zerif_sidebar_trigger();
 	}
 		?>
 	</div><!-- .container -->
