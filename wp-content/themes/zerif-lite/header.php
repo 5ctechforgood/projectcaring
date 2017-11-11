@@ -11,7 +11,6 @@
 
 <head>
 
-<<<<<<< Updated upstream
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
