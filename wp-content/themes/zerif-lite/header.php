@@ -28,8 +28,6 @@
 </script>
 <!-- End Piwik Code -->
 
-=======
->>>>>>> Stashed changes
 <?php zerif_top_head_trigger(); ?>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">

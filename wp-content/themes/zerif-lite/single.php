@@ -43,9 +43,6 @@ get_header(); ?>
 			<?php zerif_bottom_single_post_trigger(); ?>
 		</div><!-- .content-left-wrap -->
 		<?php zerif_after_single_post_trigger(); ?>
-<<<<<<< Updated upstream
-		<?php zerif_sidebar_trigger(); ?>
-=======
->>>>>>> Stashed changes
+
 	</div><!-- .container -->
 <?php get_footer(); ?>
