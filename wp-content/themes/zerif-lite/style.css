@@ -271,6 +271,8 @@ h6 {
 }
 p {
 	margin-bottom: 1.5em;
+	font-size: 20px;
+	line-height: 30px;
 }
 b,
 strong {
@@ -369,7 +371,7 @@ h2 {
 }
 h1,
 h1 span {
-	font-size: 30px;
+	font-size: 35px;
 }
 h2 {
 	font-size: 26px;
@@ -385,6 +387,10 @@ h5 {
 }
 h6 {
 	font-size: 16px;
+}
+li {
+	font-size: 20px;
+	line-height: 30px;
 }
 
 
@@ -1763,7 +1769,7 @@ object {
 	margin-bottom: 0;
 	color: #000;
 	font-family: "Montserrat", Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 50px;
 	font-weight: bold;
 	line-height: normal;
 }
