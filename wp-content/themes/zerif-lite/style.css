@@ -1596,8 +1596,8 @@ object {
 	min-height: 76px;
 }
 .header.header > .navbar {
-	-webkit-box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
-	box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
+	-webkit-box-shadow: 0 5px 11px 0 rgba(0, 36, 90, 0.08);
+	box-shadow: 0 5px 11px 0 rgba(0, 36, 90, 0.08);
 }
 .header-content-wrap {
 	position: relative;
@@ -1652,9 +1652,6 @@ object {
 	border-radius: 0 !important;
 	background: #fff;
 	text-align: left;
-}
-.navbar a {
-	color: #00245a !important;
 }
 .navbar a:hover {
 	color: #94ac32 !important;
@@ -1783,7 +1780,7 @@ object {
 	margin-bottom: 5px;
 }
 .navbar-inverse .navbar-brand .site-title a {
-	color: #00245a;
+	color: #000;
 }
 
 .navbar-inverse .navbar-brand p.site-description {
