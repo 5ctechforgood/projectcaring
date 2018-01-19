@@ -1,0 +1,90 @@
+/*
+Theme Name: ramza
+
+Support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+@see http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+body {
+  direction: rtl;
+  unicode-bidi: embed; }
+
+@media screen and (min-width: 801px) {
+  .b-content-area {
+    float: right; } }
+
+@media screen and (min-width: 801px) {
+  .b-sidebar-area {
+    float: left; } }
+
+.c-brand {
+  float: right; }
+
+.c-nav-primary__mobile-toggle-close.is-active {
+  left: auto;
+  right: 180px; }
+  @media screen and (min-width: 500px) {
+    .c-nav-primary__mobile-toggle-close.is-active {
+      right: 210px; } }
+
+.c-menu-primary-mobile {
+  left: 100%;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0); }
+  .c-menu-primary-mobile.is-active {
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%); }
+
+.c-nav-primary__desktop {
+  float: right; }
+
+.c-posts-nav__link--prev {
+  float: right; }
+
+.c-posts-nav__link--next {
+  float: left; }
+
+@media screen and (min-width: 801px) {
+  .c-comment__body {
+    padding-left: 0;
+    padding-right: 90px; } }
+
+@media screen and (min-width: 801px) {
+  .c-comment__avatar {
+    left: auto;
+    right: 0; } }
+
+.c-menu-footer li {
+  margin-left: 0;
+  margin-right: 15px;
+  margin-right: 0.9375rem; }
+
+.c-menu-footer-social li {
+  margin-left: 0;
+  margin-right: 20px;
+  margin-right: 1.25rem; }
+
+@media screen and (min-width: 801px) {
+  .c-menu-footer-social {
+    margin-right: 30px;
+    margin-right: 1.875rem; } }
+
+@media screen and (min-width: 801px) {
+  .c-copyright {
+    float: right; } }
+
+@media screen and (min-width: 801px) {
+  .c-nav-footer {
+    float: left; } }
+
+@media screen and (min-width: 801px) {
+  .c-menu-footer {
+    float: right; } }
+
+@media screen and (min-width: 801px) {
+  .c-menu-footer-social {
+    float: right; } }
