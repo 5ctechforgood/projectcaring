@@ -9,7 +9,7 @@ tables_prefix = "piwik_"
 
 [General]
 salt = "37d95988414407cd77868186bf3d5066"
-trusted_hosts[] = "flow.network"
+trusted_hosts[] = "projectcaring.net"
 
 [PluginsInstalled]
 PluginsInstalled[] = "Diagnostics"

@@ -1,0 +1,48 @@
+# Changelog
+
+## 1.3.3
+* Added: New custom logo feature in WordPress 4.5.
+
+## 1.3.2
+* Fix: Default settings for display post metas were not set.
+* Changed: ramza_sanitize_html() function to use wp_kses_post() function instead of wp_filter_post_kses().
+* Changed: ramza_sanitize_html() function name to ramza_sanitize_html_allowedposttags().
+* Added: Support menu link under the theme menu in the admin menu bar area.
+* Removed: RAMZA_VERSION constant.
+
+## 1.3.1
+- Removed: Minified assets (rely on plugins instead).
+- Fixed: Translation functions that were used wrongly.
+- Removed: Theme documentation menu page.
+- Added: Admin bar menu for theme related pages.
+- Added: Dutch language translation. (Thanks again Bart!)
+- Fixed: Customizer header text color not responding in the preview. (Thanks again Bart!)
+
+## 1.3.0
+* Added: RTL support.
+* Fixed: Mobile footer menu not appearing in center.
+
+## 1.2.1
+* Fix: Removed CSS height property from iframe tag as it is causing height problems with embeds.
+* Fix: Typo "Theme Documentation". (Thanks Bart!)
+* Added background color styling to inline code tags.
+
+## 1.2.0
+* Added several theme customizer options in "Content":
+  * Display single post page post author.
+  * Display post meta date.
+  * Display post meta author.
+  * Display post meta comments.
+
+## 1.1.2
+* Fixed Jetpack causing errors.
+
+## 1.1.1
+* Links to documentation now opens in a new tab.
+
+## 1.1.0
+* Added admin.php file to include all admin related functions.
+* Minor CSS fixes.
+
+## 1.0.0
+* Initial release

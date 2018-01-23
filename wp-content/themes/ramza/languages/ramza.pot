@@ -1,0 +1,80 @@
+# Copyright (C) 2016 ramza
+# This file is distributed under the same license as the ramza package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ramza\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+
+#: ../ramza/src/404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../ramza/src/404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: ../ramza/src/comments.php:32
+msgctxt "comments title heading"
+msgid "One Thought"
+msgid_plural "%1$s Thoughts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ramza/src/comments.php:44
+msgctxt "comments title heading"
+msgid "One Thought on %2$s"
+msgid_plural "%1$s Thoughts on %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../ramza/src/comments.php:82
+msgid "Comments are closed."
+msgstr ""
+
+#: ../ramza/src/functions.php:63
+msgid "Primary"
+msgstr ""
+
+#: ../ramza/src/functions.php:64
+msgid "Footer"
+msgstr ""
+
+#: ../ramza/src/functions.php:65
+msgid "Footer Social"
+msgstr ""
+
+#: ../ramza/src/functions.php:116
+msgid "Sidebar"
+msgstr ""
+
+#: ../ramza/src/header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: ../ramza/src/search.php:17
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../ramza/src/searchform.php:13, ../ramza/src/searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: ../ramza/src/searchform.php:14
+msgctxt "search placeholder"
+msgid "Search..."
+msgstr ""
+
+#: ../ramza/src/searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
